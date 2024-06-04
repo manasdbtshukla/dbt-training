@@ -5,4 +5,4 @@
 }}
 
 Select * from 
-RAW.GLOBALMARKET.product
+{{ source('GLOBALMARKET', 'PRODUCT') }}
